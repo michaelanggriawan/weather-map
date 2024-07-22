@@ -23,7 +23,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 
    ```sh
    git clone https://github.com/michaelanggriawan/weather-map.git
-   cd weather-app
    ```
 2. **Install the dependencies:**
 
@@ -35,8 +34,12 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```sh
     const apiKey = 'YOUR_API_KEY_HERE'; // Replace with your OpenWeatherMap API key
     ```
+4. **Run the App:**
+    ```sh
+    npm start
+    ```
 
-4. **Start the development server with hot-reloading:**
+5. **Start the development server with hot-reloading:**
     ```sh
     http://localhost:9000
     ```
